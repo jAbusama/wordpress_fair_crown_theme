@@ -1,0 +1,320 @@
+/*
+  Theme Name: FairCrown
+  Version: 1.0
+  Author: jepm16
+  Description: Fair Crown Theeme
+*/
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', 'Playfair',  sans-serif;
+  font-size: 14px;
+}
+
+.nav-header {
+  padding: 0;
+  position: relative;
+  left: 0;
+  width: 100%;
+  z-index: 1022;
+  background: transparent !important;
+  /* background: #111111; */
+}
+.navbar {
+  background: transparent !important;
+  padding: .8rem 4rem .8rem 4rem;
+}
+.navbar-nav li {
+  padding-right: 10px;
+}
+.navbar-nav .nav-item button {
+  width: 111px;
+  height: 32px;
+}
+.nav-item {
+  padding: 0 15px !important ;
+}
+.nav-link {
+  padding: 0 !important;
+  font-size: 1.1rem !important;
+  font: medium !important;
+  font-size: 16px !important;
+  color: #fff !important;
+}
+
+.shrink {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  padding: 2rem 4rem 1rem 4rem!important;
+}
+#banner{
+  padding: 0 !important;
+  margin-bottom: 60px;
+}
+#banner img {
+  width: 100% !important;
+  height: 648px !important;
+  filter: brightness(90%);
+}
+#banner .carousel-caption h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 52px !important;
+}
+#banner .carousel-caption {
+  right: 0 !important;
+  left: 0 !important;
+}
+#banner .landing-caption {
+  top: 286px !important;
+}
+
+#banner .booking-bar {
+  top: 615px !important;
+}
+#banner .card {
+  text-align: center !important;
+  width: 900px;
+  height: 89px;
+  margin: auto;
+}
+.booking-bar .date {
+  width: 100%;
+  height: 50px !important;
+}
+.booking-bar .custom-select {
+  width: 100%;
+  height: 50px;
+}
+.booking-bar input {
+  width: 100%;
+  height: 50px;
+}
+.welcome h1 {
+  font-weight: 500;
+  font-size: 19px;
+  padding: 30px 0;
+  line-height: 29px;
+}
+.litle-about .display-4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px !important;
+  line-height: 75px;
+}
+.litle-about img {
+  width: 626px !important;
+  height: 500px;
+}
+
+.litle-about-details {
+  padding: 0 20px;
+}
+.litle-about-details p{
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 42px;
+}
+
+.client-review {
+  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+}
+.lead {
+  font-size: 20px !important;
+}
+.welcome h3 {
+  padding-bottom: 30px;
+}
+.promo-item-btn {
+  padding: 10px 0;
+}
+.btn-promo {
+  padding-top: 20px;
+}
+.padding {
+  padding: 0 4rem 6rem 4rem;
+  /* padding-bottom: 2rem; */
+}
+.jumbotron {
+  margin: 0 !important;
+  padding: 6rem 4rem !important;
+}
+.socials i {
+  font-size: 30px !important;
+  line-height: 40px;
+}
+#footer{
+  background: #111111 !important;
+  color: #fff;
+  padding-top: 4rem;
+  /* background: #393e46; */
+  /* padding: 60px 0 40px; */
+}
+footer .padding {
+  padding-bottom: 2rem;
+}
+#footer ul {
+  list-style-type: none;
+  padding: 10px 0 !important;
+}
+#footer .socials i {
+  padding-right: 10px;
+}
+
+
+.rooms .display-4 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 40px;
+}
+.rooms .text-muted {
+  font-size: 14px;
+  display: inline;
+}
+.rooms h5 {
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 20px;
+}
+.rooms p {
+  font-size: 12px !important;
+  text-align: justify;
+}
+.function-rooms img{
+  border-radius: 10px;
+  width: 100%;
+  height: 300px !important;
+  filter: brightness(50%);
+}
+.function-rooms .col-xs-12 {
+  padding: 10px !important;
+}
+ .function-rooms .carousel-caption {
+  text-align: left !important;
+}
+ .function-rooms .carousel-caption h1 {
+  font-size: 20px !important;
+  line-height: 30px;
+}
+ .function-rooms  .carousel-caption h6 {
+  font-size: 10px !important;
+  line-height: 15px;
+}
+  .function-rooms .carousel-caption p {
+  font-size: 10px !important;
+  line-height: 15px;
+}
+
+.related-rooms .carousel-caption {
+  text-align: left !important;
+}
+.related-rooms .carousel-caption h1 {
+  font-size: 20px !important;
+  line-height: 30px;
+}
+.related-rooms .carousel-caption h6 {
+  font-size: 10px !important;
+  line-height: 15px;
+}
+.related-rooms .carousel-caption p {
+  font-size: 10px !important;
+  line-height: 15px;
+}
+.gallery .col-xs-12 {
+  padding: 5px !important;
+}
+.gallery img {
+  width: 100%;
+  height: 300px !important;
+}
+.gallery img {
+  filter: brightness(70%);
+}
+.gallery .carousel-caption {
+  text-align: left !important;
+}
+.filter .input-group{
+  display: inline;
+  max-width: 170px;
+  margin-right: 5px;
+  /* float: left !important; */
+}
+.filter label {
+  margin: 0 !important;
+  padding-left: 5px;
+  font-size: 10px;
+}
+.filter {
+  margin-bottom: 20px;
+}
+
+.box {
+  background: #cfcfcf;
+  padding: 20px;
+  margin-top: 1rem ;
+  border-radius: 10px ;
+}
+
+.box .display-4{
+  font-size: 30px !important;
+  font-weight: 500;
+}
+.star-rating {
+  display: inline-block;
+  padding: 20px 0;
+}
+.star {
+  display: inline;
+  padding-left: 10px;
+  
+}
+.star span {
+  font-size: 10px !important;
+}
+.rating {
+  display: inline;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center !important;
+}
+.freebies {
+  padding: 20px 0;
+}
+.freebies span {
+  padding: 10px 5px 10px 0;
+  font-size: 10px;
+  line-height: 20px;
+}
+.box .text-right h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: red;
+}
+.box .text-right h5 {
+  font-size: 14px;
+  color: red;
+}
+
+.box select {
+  width: 100px !important;
+  align-items: left;
+  /* font-size: 50px !important; */
+}
+.related-rooms img{
+  border-radius: 10px;
+  width: 100%;
+  height: 350px !important;
+  filter: brightness(60%);
+}
+.related-rooms .col-xs-12 {
+  padding: 10px !important;
+}
+
+.date-and-days h4, h6 {
+  display: inline-block;
+}
+
+
+
+
